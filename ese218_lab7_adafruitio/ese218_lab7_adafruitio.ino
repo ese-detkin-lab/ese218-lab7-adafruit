@@ -30,6 +30,7 @@ int count = 0;
 
 // Adafruit Feeds
 AdafruitIO_Feed *pressure = io.feed("pressure");
+AdafruitIO_Feed *altitude = io.feed("altitude");
 
 void sendSensor()
 {
@@ -61,6 +62,8 @@ void sendSensor()
  */ 
   
   pressure->save(p);
+  delay(2000);
+  altitude->save(a);
 }
 
 
