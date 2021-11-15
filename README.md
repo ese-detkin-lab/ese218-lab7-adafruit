@@ -1,4 +1,4 @@
-# ESE219 MEMS Pressure Sensor - Adafruit IO
+# ESE218 MEMS Pressure Sensor - Adafruit IO
 
 1. Create an account at [io.adafruit](https://io.adafruit.com/).
 2. Open the Arduino IDE and install the **Adafruit IO Arduino** library.
