@@ -7,7 +7,7 @@ Author: Kim Lương
 
 ## Connections
 I2C used to read in data.
-|BMMP288 | NodeMCU|
+|BMP288 | NodeMCU|
 |:------:|:------:|
 |  Vin   |  3.3V  |
 |  GND   |  GND   |
